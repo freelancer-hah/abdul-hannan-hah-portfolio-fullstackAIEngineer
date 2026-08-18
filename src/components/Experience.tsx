@@ -10,7 +10,7 @@ const Experience = () => {
       company: "Digital Softs",
       location: "Pakistan",
       workType: "Full-time",
-      period: "July 2025 - Present",
+      period: "July 2026 - Present",
       description: "Architecting and developing full-stack web applications with advanced AI capabilities using MERN stack, Next.js, and generative AI APIs. Driving end-to-end feature implementation, AI workflow integration, backend service optimization, and client-side performance enhancements."
     },
     {
