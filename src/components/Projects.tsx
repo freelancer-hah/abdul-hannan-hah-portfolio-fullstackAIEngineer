@@ -5,6 +5,26 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Spice Corner - Full Stack Cafe & Online Ordering Application",
+      description: "A comprehensive full-stack cafe online ordering platform built with MERN stack featuring AI capabilities (Voice Search, Vision AI & Smart Chatbot), real-time order tracking, dedicated Rider delivery dashboard, and complete Admin management system.",
+      image: "/spice-corner.png",
+      tags: ["MERN Stack", "React", "NodeJS", "ExpressJS", "MongoDB", "AI Features", "Real-Time Tracking", "Rider Module"],
+      demoUrl: "https://elegant-maamoul-bfaab7.netlify.app/",
+      imagePosition: "right" as const,
+      featured: true
+    },
+    {
+      id: 2,
+      title: "Kallu Lubricants - POS & Stock Management System",
+      description: "Full-stack MERN Point of Sale (POS) and inventory control application built for lubricant companies. Features real-time stock management, sales recording, user authentication, and detailed sales analytics.",
+      image: "/kallu-lubricants.png",
+      tags: ["MERN Stack", "React", "NodeJS", "ExpressJS", "MongoDB", "POS System", "Stock Management"],
+      demoUrl: "https://github.com/AbdulHannan-HAH",
+      imagePosition: "left" as const,
+      featured: true
+    },
+    {
+      id: 3,
       title: "Marketing Agency Website",
       description: "Modern marketing agency website with advanced animations, interactive elements, and seamless user experience. Features real-time analytics integration and dynamic content management.",
       image: "https://res.cloudinary.com/dbbk9wg2i/image/upload/v1742640507/Marketing_site_vzhgfu.png",
@@ -14,7 +34,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 2,
+      id: 4,
       title: "Tech Company Website",
       description: "Sleek and modern website for InfoQuestPro, a tech solutions provider. Features interactive service showcases.",
       image: "https://res.cloudinary.com/dbbk9wg2i/image/upload/v1759206929/Capture_gmbswi.png",
@@ -24,7 +44,7 @@ const Projects = () => {
       featured: false
     },
     {
-      id: 3,
+      id: 5,
       title: "Tech StartUp Product Website",
       description: "A sleek and modern website for Snapfit, a tech solutions provider. It includes interactive service showcases, a tools listing, pricing page, dynamic inspiration page, and contact page — all designed for a seamless user experience.",
       image: "https://res.cloudinary.com/dbbk9wg2i/image/upload/v1759207689/Capture_a2ytbu.png",
@@ -34,7 +54,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 4,
+      id: 6,
       title: "Real Time Chat Application",
       description: "BaatCheet a real time chat application where users can chat with each other in real time. Users can share files, emojis, and images. ",
       image: "https://res.cloudinary.com/deejpsbzq/image/upload/v1770193246/Screenshot_20260204-131815.jpg_qyxzgc.jpg",
@@ -44,7 +64,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 5,
+      id: 7,
       title: "Islamic Hub",
       description: "A comprehensive digital platform for Muslims featuring Quran with multiple translations, Hadith collections, Islamic articles, and an e-commerce section for purchasing Islamic products. Users can browse and buy religious items like prayer mats, Islamic books, clothing, and accessories while accessing authentic Islamic knowledge resources and community features for spiritual growth.",
       image: "https://res.cloudinary.com/deejpsbzq/image/upload/v1770160147/is_ma2bti.png",
@@ -54,7 +74,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 6,
+      id: 8,
       title: "Library Management System",
       description: "LMS is a desktop application built for the library of the university. It includes features like book management, user management, and borrowing history.",
       image: "https://res.cloudinary.com/deejpsbzq/image/upload/v1770194055/Screenshot_20260204-133305.jpg_avlv5u.jpg",
@@ -64,7 +84,7 @@ const Projects = () => {
       featured: true
     },
     {
-      id: 7,
+      id: 9,
       title: "Ecommerce Platform",
       description: "EasyShop is a professional project — a full-featured e-commerce platform that offers a seamless shopping experience with advanced product management, secure payment integration, and real-time order tracking.",
       image: "https://res.cloudinary.com/dbbk9wg2i/image/upload/v1759256114/Capture_htgjkq.png",
@@ -74,8 +94,7 @@ const Projects = () => {
       featured: true
     },
     {
-
-      id: 8,
+      id: 10,
       title: "Frontend of Internee.pk",
       description: "This project holds special significance as it marks the beginning of my professional journey. Developed the complete frontend for Internee.pk during my internship, creating an intuitive platform that connects students with internship opportunities.",
       image: "https://res.cloudinary.com/deejpsbzq/image/upload/v1770195256/123_dzk5iv.png",
@@ -83,7 +102,6 @@ const Projects = () => {
       demoUrl: "https://internee-pk-sitefrontend.vercel.app/",
       imagePosition: "left" as const,
       featured: true
-
     },
   ];
 
